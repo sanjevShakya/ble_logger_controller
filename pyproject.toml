@@ -9,6 +9,7 @@ python = ">=3.9,<3.11"
 serial = "^0.0.97"
 numpy = "^1.21.4"
 asyncio = "^3.4.3"
+bleak = "^0.13.0"
 
 [tool.poetry.scripts]
 data_logger="data_logger.main:main"
