@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "data-logger"
+version = "0.1.0"
+description = ""
+authors = ["Sanjeev Shakya <sanjevsakya@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+serial = "^0.0.97"
+numpy = "^1.21.4"
+asyncio = "^3.4.3"
+
+[tool.poetry.scripts]
+data_logger="data_logger.main:main"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
